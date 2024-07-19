@@ -1,8 +1,8 @@
-import Image from 'next/image';
-import { UpdateInvoice, DeleteInvoice } from '@/app/ui/invoices/buttons';
-import InvoiceStatus from '@/app/ui/invoices/status';
-import { formatDateToLocal, formatCurrency } from '@/app/lib/utils';
-import { fetchFilteredInvoices } from '@/app/lib/data';
+import Image from "next/image";
+import { UpdateInvoice, DeleteInvoice } from "@/app/ui/invoices/buttons";
+import InvoiceStatus from "@/app/ui/invoices/status";
+import { formatDateToLocal, formatCurrency } from "@/app/lib/utils";
+import { fetchFilteredInvoices } from "@/app/lib/data";
 
 export default async function InvoicesTable({
   query,
@@ -51,6 +51,9 @@ export default async function InvoicesTable({
                     <DeleteInvoice id={invoice.id} />
                   </div>
                 </div>
+                <small className="text-xs font-mono font-thin block mr-auto text-gray-400">
+                  ID: {invoice?.id}
+                </small>
               </div>
             ))}
           </div>
