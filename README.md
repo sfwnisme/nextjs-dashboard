@@ -24,6 +24,7 @@ For more information, see the [course curriculum](https://nextjs.org/learn) on t
   - [ ] [error.js API Reference](https://nextjs.org/docs/app/api-reference/file-conventions/error)
   - [ ] [notFound() API Reference](https://nextjs.org/docs/app/api-reference/functions/not-found)
   - [ ] [not-found.js API Reference](https://nextjs.org/docs/app/api-reference/file-conventions/not-found)
-- [ ] Improving Accessibility
+- [x] Improving Accessibility
+  - [ ] If you'd like to learn more about accessibility, we recommend the [Learn Accessibility](https://web.dev/learn/accessibility/) course by [web.dev](web.dev).
 - [ ] Adding Authentication
 - [ ] Adding Metadata
